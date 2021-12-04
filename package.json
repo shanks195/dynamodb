@@ -1,0 +1,29 @@
+{
+  "name": "myserverlessproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "aws-sdk": "^2.1043.0",
+    "serverless": "^2.68.0",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-jest-plugin": "^0.3.0",
+    "serverless-offline": "^8.3.1",
+    "serverless-webpack": "^5.6.0",
+    "webpack": "^5.64.4"
+  },
+  "scripts": {
+    "install":"sls dynamodb install && ",
+    "start": "sls offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamWSoftware/ServerlessYoutubeSeries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamWSoftware/ServerlessYoutubeSeries/issues"
+  },
+  "homepage": "https://github.com/SamWSoftware/ServerlessYoutubeSeries#readme"
+}
